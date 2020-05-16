@@ -1,0 +1,37 @@
+a.button{
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  color: white;
+  background-color: blue;
+  min-width: 150px;
+  font-size: larger;
+  margin: 10 auto;
+
+}
+a:hover {
+    background-color: #4b00a0;
+  }
+  .instructions
+{
+    border: solid;
+    border-radius: 10px;
+    max-width: 800;
+    align-self: center;
+    align-content: center;
+    font-size: small;
+    margin: auto;
+    margin-top: 20;
+    border: white solid;
+}
+h1{
+  color: blue;
+}
+
+html{
+  background-color: #808080;
+  color: black;
+  text-align: center;
+  font-family: "Comic Sans MS",sans-serif;
+  user-select: none;
+}

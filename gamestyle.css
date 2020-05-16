@@ -1,0 +1,16 @@
+html
+{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    user-select: none;
+}
+#canvas{
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: #008000;
+  margin-left: 20px;
+  margin-right: 50px;
+
+}

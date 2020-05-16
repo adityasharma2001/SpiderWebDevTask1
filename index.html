@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="style.css">
+     <title> Balloon Burster</title>
+   </head>
+   <body>
+     <h1>Balloon Burster</h1>
+     <hr>
+
+     <a href="game.html" class="switch" id="start">Start</a>
+     <div id = "highscore">
+
+     </div>
+     <script>
+     ((document).getElementById("highscore")).innerHTML = "Highscore : " + (parseInt(localStorage.getItem("highscore"))||0);
+     </script>
+     <div class = "instructions">
+       <div style="font-size: x-large ; padding-top: 25;">
+         INSTRUCTIONS<br>
+       </div>
+       <div style="text-align : left;font-size: large; padding-left: 20; padding-right: 20; padding-bottom: 20;">
+         Click on the balloons to destroy them.<br>
+         When 75% of Screen is filled with balloons you have 10 seconds to clear the screen.<br>
+         If time runs out - <div class = "gameover" style="color: red;">GAME OVER</div><br>
+       </div>
+     </div>
+   </body>
+   </html>
